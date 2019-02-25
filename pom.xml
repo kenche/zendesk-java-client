@@ -72,6 +72,19 @@
     <tag>zendesk-java-client-0.8.0</tag>
   </scm>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>artifactory</id>
+            <name>ctt-public-feed-snapshots</name>
+            <url>http://artifactory.clay-tablet.net/artifactory/ctt-sdk-maven</url>
+        </snapshotRepository>
+        <repository>
+            <id>artifactory</id>
+            <name>ctt-public-feed-releases</name>
+            <url>http://artifactory.clay-tablet.net/artifactory/ctt-sdk-maven</url>
+        </repository>
+    </distributionManagement>
+
   <issueManagement>
     <system>github</system>
     <url>https://github.com/cloudbees/zendesk-java-client/issues</url>
